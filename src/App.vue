@@ -7,7 +7,7 @@
 
 <script>
 // TODO: Please change for your environment.
-const dbURI = 'http://192.168.26.101:9000/sensors'
+const dbURI = 'http://localhost:9000/sensors'
 
 import TempChart from './components/TempChart.vue'
 import Axios from 'axios'

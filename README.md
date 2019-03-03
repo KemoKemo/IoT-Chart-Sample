@@ -1,18 +1,26 @@
 # IoT-Chart-Sample
 
-> A Chart project for temperature sensor
+A Chart project for the temperature sensor's data.
 
-## Build Setup
+## Prerequisite
 
-``` bash
+It is necessary that the [db-api](https://github.com/kemokemo/IoT-DB-Sample/tree/master/db-api) service is running at the URL of `http://localhost:9000`.
+
+## Build
+
+```sh
 # install dependencies
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
 
 # build for production with minification
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Run
+
+```sh
+cd server
+go run main.go
+```
+
+Open `http://localhost:8090` with a browser.

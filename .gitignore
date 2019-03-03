@@ -1,6 +1,10 @@
+# macOS
 .DS_Store
+
+# build
 node_modules/
-dist/
+server/assets/*
+!server/assets/index.html
 npm-debug.log
 yarn-error.log
 
